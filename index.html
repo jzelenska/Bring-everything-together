@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <meta description="Welcome Form for further collaboration"> 
+    <link rel="stylesheet" href="./style.css">
+    <meta keywords="HTML, CSS, JavaScript">
+     <title>Welcome to my site!</title>
+</head>
+<body>
+    <h1>Welcome to my site!</h1>
+    <div>
+       <img src="https://github.com/jzelenska/html_further/blob/main/ua_will_win.jpeg" alt="We'll win!" width="300" height="200">
+    </div>
+        <h2>It's nice to find out some details about you :)</h2>
+        <p>Please fill in the following:</p>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Please type in your name" required>
+        <br />
+        <label for="date">Your date of birth:</label>
+        <input type="date" id="date" name="date">
+       <br />
+       <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>  
+        <br />
+        <br />
+        <label for="radio">Have you completed the higher education?</label>
+        <input type="radio" id="radio" name="radio" value="option1">Yes
+        <input type="radio" id="radio" name="radio" value="option2">No
+        <br />
+        <br />
+        <label for="options">Please choose your highest education:</label>
+        <br />
+        <select name="options" id="Education">
+            <option value="option1">PhD or higher</option>
+            <option value="option2">Master</option>
+            <option value="option3">Bachelor</option>
+            <option value="option3">I have not completed a high education (yet)</option>
+        </select>
+        <br />
+        <br />
+        <label for="message">Please type in the name of your highest education provider:</label>
+        <textarea name="message" id="Educator" rows="4" cols="50" placeholder="Please type in your thoughts."></textarea>
+        <label for="checkbox1">Have you studied any of the following subjects:</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1">Economics
+        <input type="checkbox" id="checkbox2" name="checkbox2">Sociology
+        <input type="checkbox" id="checkbox3" name="checkbox3">Biology
+        <input type="checkbox" id="checkbox4" name="checkbox4">Statistics
+        <input type="checkbox" id="checkbox5" name="checkbox5">IT
+       
+        <p>Do you know at least <span class="highlight">10</span> HTML elements from the following table?</p>
+            <input type="radio" id="Level" name="radio" value="option1">Yes
+            <input type="radio" id="Level" name="radio" value="option2">No
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Simple</th>
+                <th>Normal</th>
+                <th>Advanced</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>     
+                    <li>Title</li>
+                    <li>Head</li>
+                    <li>Meta</li>
+                    <li>Body</li>
+                    <li>Header</li>
+                    <li>Paragraph</li>
+                    <li>HTML</li>
+                    <li>DOCTYPE</li> 
+                    <li>Footer</li>
+                    <li>Article</li>
+                    <li>Main</li> 
+                </td>
+                <td>
+                    <li>Image</li>
+                    <li>Link</li>
+                    <li>Button</li>
+                    <li>Div</li>
+                    <li>Span</li>
+                    <li>Table</li>
+                    <li>Form</li>
+                    <li>List</li>
+                    <li>Blockquote</li>
+                    <li>Nav</li>
+                    <li>Section</li>
+                <td>
+                    <li>Details</li>
+                    <li>Summary</li>
+                    <li>Time</li>
+                    <li>Mark</li>
+                    <li>Progress</li>
+                    <li>Meter</li>
+                    <li>Canvas</li>
+                    <li>Video</li>
+                    <li>Audio</li>
+                    <li>Script</li>
+                    <li>Style</li>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <ul>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </ul> 
+    </form>     
+    </ul>
+    <footer>
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://melodic-phoenix-cf091a.netlify.app">About my Native City</a></li>
+        </ul>
+    </nav>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous"></script>
+<script src="./js.js"></script>
+</body>
+</html>
